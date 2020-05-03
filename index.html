@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Designer&Developer Julia Elagina</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <script src="script.js" defer></script>
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+<body>
+    <nav class="wow fadeInLeft" data-wow-delay="1.5s">
+        <div class="hideMenu__wrap">
+            <div class="menu__button__Wrap">
+                <button class="menu__button">
+                    <img src="img/icons/menu.png">
+                </button>
+                <button class="menu__button menu__buttonClose">
+                    <img src="img/icons/menuClose.png">
+                </button>
+            </div>
+            <ul class="hideMenu">
+                <li>
+                    <a class="hideMenu__secshion"  href="#home">HOME</a>
+                </li>
+                <li>
+                    <a class="hideMenu__secshion"  href="#about">ABOUT ME</a>
+                </li>
+                <li>
+                    <a class="hideMenu__secshion"  href="#portfolio">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a class="hideMenu__secshion"  href="#contacts">CONTACTS</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+    <a name="home"></a>
+    <div class="cssload-loaderWrap">
+        <div class='cssload-loader'>
+            <div class='cssload-inner cssload-one'></div>
+            <div class='cssload-inner cssload-two'></div>
+            <div class='cssload-inner cssload-three'></div>
+        </div>
+    </div>
+    <div class="home">
+        <h2 class="home__name wow rotateInDownLeft" data-wow-delay="1s" >Designer</h2>
+        <img class="wow bounceInLeft "data-wow-delay="1s" data-wow-duration='2s'src="img/icons/LineSmall.png" >
+        <h2 class="home__name  wow rotateInDownRight" data-wow-delay="1s">&lt;Developer&gt;</h2>
+    </div>
+    <div class="about">
+        <div class="workArea">
+                <a name="about"></a>
+                <h2 class="about__name wow jackInTheBox"  data-wow-duration='2s' data-wow-offset="30">ABOUT ME</h2>
+                <div class="about__imgwrap">
+                    <img src="img/icons/aboutSmall.png"  class="imgForRemove wow bounceInLeft">
+                </div>
+                <h3 class="about__text-bold about__textAndImg wow bounceInLeft">  
+                    Dear Customer, welcome to my page! My name is Julia, I am 25 years old. I am a web designer and front-end developer. 
+                </h3>
+                <h3 class="about__text-bold  wow bounceInLeft">
+                    I take to conclusion all my works by facing two steps: 
+                </h3>
+                <div class="about__step wow bounceInLeft"  data-wow-offset="100">
+                    <div class="about__imgwrap2">
+                        <img src="img/icons/smallFoodLeft.png">
+                    </div>
+                    <h4 class="about__text">
+                        First, I will realise your ideas and wishes in a modern, high-quality beautiful design. I will create adaptive versions in order to ensure that your design will look great on any screen extensions
+                    </h4>
+                </div>
+                <div class="about__step wow bounceInLeft" data-wow-offset="50">
+                    <div class="about__imgwrap3">
+                        <img src="img/icons/smallFoodRight.png">
+                    </div>
+                    <h4 class="about__text">
+                        First, I will realise your ideas and wishes in a modern, high-quality beautiful design. I will create adaptive versions in order to ensure that your design will look great on any screen extensions
+                    </h4>
+                </div>
+                <div class="about__icons wow bounceInLeft">
+                    <img src="img/icons/figmaSmall.png" >
+                    <img class="about__img-lang" src="img/icons/lahguigesSmall.png">
+                </div>
+            </div>
+    </div>
+    <div class="portfolio">
+        <div class="workArea">
+                <a name="portfolio"></a>
+                <h2 class="portfolio__name wow jackInTheBox"  data-wow-duration='2s' data-wow-offset="30">
+                    PORTFOLIO
+                </h2>
+                <div class="portfolio__slaider wow bounceInLeft">
+                    <div class="portfolio__slaiderWrap">
+                        <div class="portfolio__slideButtomWrap">
+                            <button class="portfolio__slideButtom sliderButtonLeft"> 
+                                <img src="img/icons/buttonForSliderLeft.png">
+                            </button>   
+                        </div>   
+                        <div class="slider">
+                            <div class="polosa">
+                                    <img src="img/readyLayotTrabucco/desktop/HOME.jpg" class="sliderImg">
+                                    <img src="img/readyLayotBarbieroom/desctop/home.jpg" class="sliderImg">
+                            </div>
+                        </div>
+                        <div class="portfolio__slideButtomWrap">
+                            <button class="portfolio__slideButtom sliderButtonRight">
+                                <img src="img/icons/buttobForSlideRight.png" >
+                            </button>   
+                        </div>
+                    </div>
+                    <div class="buttonWrapper">
+                        <div class="slaiderButton ">
+                            <div class="polosaButton">
+                                <button class="sliderInnerButton"><a href="#openModal">See more</a> </button>
+                                <button class="sliderInnerButton"><a href="#openModal2">See more</a> </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="openModal" class="modal">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Design&Developmend of Italian restaurant web site <br>
+                                <a href="https://juliaelagina.github.io/trabucco/index.html" class="modal-titleLink">juliaelagina.github.io/trabucco</a> 
+                            </h3>
+                        <a href="#close" title="Close" class="close">×</a>
+                        </div>
+                        <div class="modal-version">
+                            <button class="modal-button">
+                                <img src="img/icons/desktop.png" class="modal-versioImg">
+                                <p>Desktop version</p> 
+                            </button>
+                            <button class="modal-button2">
+                                <img src="img/icons/telephone.png" class="modal-versioImg">
+                                <p>Mobile version</p> 
+                            </button>
+                            
+                        </div>
+                        <div class="modal-body">    
+                        
+                        <img src="img/readyLayotTrabucco/desktop/HOME_S.jpg" class="modal-img">
+                        <img src="img/readyLayotTrabucco/desktop/ILRISTORANTE_S.jpg" class="modal-img">
+                        <img src="img/readyLayotTrabucco/desktop/MENU_S.jpg" class="modal-img">
+                        <img src="img/readyLayotTrabucco/desktop/CANTINA_S.jpg" class="modal-img">
+                        <img src="img/readyLayotTrabucco/desktop/CONTATI_S.jpg" class="modal-img">
+                        </div>
+                        <a href="#close" title="Close" class="close close__end">×</a>
+                    </div>
+                    </div>
+
+                    <div class="modal-dialog2">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Design&Developmend of Italian restaurant web site <br>
+                                <a href="https://juliaelagina.github.io/trabucco/index.html " class="modal-titleLink">juliaelagina.github.io/trabucco</a> 
+                            </h3>
+                            <a href="#close" title="Close" class="close">×</a>
+                        </div>
+                        <div class="modal-version">
+                            <button class="modal-button3">
+                                <img src="img/icons/desktop.png" class="modal-versioImg">
+                                <p>Desktop version</p> 
+                            </button>
+                            <button class="modal-button4">
+                                <img src="img/icons/telephone.png" class="modal-versioImg">
+                                <p>Mobile version</p> 
+                            </button>
+                            
+                        </div>
+                        <div class="modal-body modal-body2">    
+                            <img src="img/readyLayotTrabucco/phone/home.jpg" class="modal-ImgMobile">
+                            <img src="img/readyLayotTrabucco/phone/il ristorante.jpg" class="modal-ImgMobile">
+                            <img src="img/readyLayotTrabucco/phone/menu.jpg" class="modal-ImgMobile">
+                            <img src="img/readyLayotTrabucco/phone/cantina.jpg" class="modal-ImgMobile">
+                            <img src="img/readyLayotTrabucco/phone/contatti.jpg" class="modal-ImgMobile">
+                        </div>
+                        <a href="#close" title="Close" class="close close__end">×</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="openModal2" class="modal">
+                    <div class="modal-dialog modal-dialogBR">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Design&Developmend of web site for beauty center <br>
+                                <a href="https://juliaelagina.github.io/BarbieRoom/" class="modal-titleLink">juliaelagina.github.io/BarbieRoom</a> 
+                            </h3>
+                        <a href="#close" title="Close" class="close">×</a>
+                        </div>
+                        <div class="modal-version">
+                            <button class="modal-button ">
+                                <img src="img/icons/desktop.png" class="modal-versioImg">
+                                <p>Desktop version</p> 
+                            </button>
+                            <button class="modal-button2 modal-button2BR">
+                                <img src="img/icons/telephone.png" class="modal-versioImg">
+                                <p>Mobile version</p> 
+                            </button>
+                            
+                        </div>
+                        <div class="modal-body">    
+                        
+                        <img src="img/readyLayotBarbieroom/desctop/home.jpg" class="modal-img">
+                        <img src="img/readyLayotBarbieroom/desctop/exten.jpg" class="modal-img">
+                        <img src="img/readyLayotBarbieroom/desctop/lami.jpg" class="modal-img">
+                        <img src="img/readyLayotBarbieroom/desctop/brows.jpg" class="modal-img">
+                        <img src="img/readyLayotBarbieroom/desctop/contacts.jpg" class="modal-img">
+                        </div>
+                        <a href="#close" title="Close" class="close close__end">×</a>
+                    </div>
+                    </div>
+
+                    <div class="modal-dialog2 modal-dialog2BR">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Design&Developmend of web site for beauty center <br>
+                                <a href="https://juliaelagina.github.io/BarbieRoom/" class="modal-titleLink">juliaelagina.github.io/BarbieRoom</a> 
+                            </h3>
+                            <a href="#close" title="Close" class="close">×</a>
+                        </div>
+                        <div class="modal-version">
+                            <button class="modal-button3 modal-button3BR">
+                                <img src="img/icons/desktop.png" class="modal-versioImg">
+                                <p>Desktop version</p> 
+                            </button>
+                            <button class="modal-button4">
+                                <img src="img/icons/telephone.png" class="modal-versioImg">
+                                <p>Mobile version</p> 
+                            </button>
+                            
+                        </div>
+                        <div class="modal-body modal-body2">    
+                            <img src="img/readyLayotBarbieroom/phone/homeM.jpg" class="modal-ImgMobile">
+                            <img src="img/readyLayotBarbieroom/phone/extenM.jpg" class="modal-ImgMobile">
+                            <img src="img/readyLayotBarbieroom/phone/lamiM.jpg" class="modal-ImgMobile">
+                            <img src="img/readyLayotBarbieroom/phone/browsM.jpg" class="modal-ImgMobile">
+                            <img src="img/readyLayotBarbieroom/phone/contactsM.jpg" class="modal-ImgMobile">
+                        </div>
+                        <a href="#close" title="Close" class="close close__end">×</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+    </div>
+    <div class="contacts">
+        <div class="workArea">
+            <a name="contacts"></a>
+            <h2 class="contacts__name  wow jackInTheBox" data-wow-duration='2s' data-wow-offset="30">
+                CONTACTS
+            </h2>
+            <div class="contacts__wrap wow bounceInLeft">
+                <div class="contacts__EmailWrap">
+                    <h3 class="contacts__title">Email:</h3>
+                    <h4 class="contacts__inf">elagina.julia@icloud.com</h4>
+                </div>
+                <div class="contacts__SkypeWrap">
+                    <h3 class="contacts__title">Skype:</h3>
+                    <h4 class="contacts__inf">Elagina Julia</h4>
+                </div>
+                <div class="contacts__WhatsAppWrap">
+                    <h3 class="contacts__title">Whats-app:</h3>
+                    <h4 class="contacts__inf">+380500810797</h4>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
